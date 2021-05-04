@@ -1,24 +1,29 @@
 import React from 'react';
 import Nav from '../components/Nav'
-import Pic from '../photos/ProfessionalPic.jpg'
+import Prof from '../photos/ProfessionalPic.jpg'
 import '../styles/App.css'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default () => {
     return (
         <body>
-            <div class="row">
-                <div class="col">
-                    <div class="card-panel blue-grey darken-4">
-                        <h1> We Are Running</h1>
-                        <img id="mainPic" src={Pic} alt='image of man' />
-                        <Link to='/resume'>
-                <button className="btn waves-effect waves-light blue" style={{ marginRight: '20px' }} name="action">Sign in
-                <i className="material-icons right">directions_car</i>
-                </button>
-              </Link>
+            <div class="profile-card">
+                <div class="card-header">
+                    <div class="pic">
+                        <img src={Prof} alt="male image"></img>
+                    </div>
+                    <div class="name">Andrew J Cruz</div>
+                    <div class="desc">Junior Full-Stack Developer</div>
+                    <div class="sm">
+                        <a href='github.com/ajdat10' class="fa fa-github" style={{ fontSize: '24px' }}></a>
+                        <a href='github.com/ajdat10' class="fa fa-linkedin" style={{ fontSize: '24px' }}></a>
+                    </div>
+                    <div class='card-footer'>
+                        <div class='numbers'>
+                        </div>
                     </div>
                 </div>
+
             </div>
 
         </body>
