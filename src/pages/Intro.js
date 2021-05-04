@@ -15,11 +15,24 @@ export default () => {
                     <div class="name">Andrew J Cruz</div>
                     <div class="desc">Junior Full-Stack Developer</div>
                     <div class="sm">
-                        <a href='github.com/ajdat10' class="fa fa-github" style={{ fontSize: '24px' }}></a>
+                        <input type='button' value='Redirect Me' onClick={"myFunction();"}/>
+                        <script>{
+                            function myFunction() {
+                                window.location ="https://www.w3schools.com"
+                            }}
+                        </script>
+
                         <a href='github.com/ajdat10' class="fa fa-linkedin" style={{ fontSize: '24px' }}></a>
                     </div>
                     <div class='card-footer'>
                         <div class='numbers'>
+                        </div>
+                        <div class='item'>
+                            <Link to='/resume'>
+                                <button className="btn waves-effect waves-light deep-orange accent-3"  >Resume
+                                <i className="material-icons right">insert_drive_file</i>
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
