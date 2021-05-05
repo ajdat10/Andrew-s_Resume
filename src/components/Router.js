@@ -9,17 +9,21 @@ class Router extends Component {
             <main>
                 <Switch>
                     <Route
-                        exact path = '/'
-                        component={()=> (
-                            <Intro/>
+                        exact path='/'
+                        component={() => (
+                            <Intro />
                         )}
                     />
                     <Route
-                    exact path = '/resume'
-                    component = {() => (
-                        <Resume/>
-                    )}
+                        exact path='/resume'
+                        component={() => (
+                            <Resume />
+                        )}
                     />
+                    <Route path='/ajdat10' component={() => {
+                        window.location.href = 'https://github.com/ajdat10';
+                        return null;
+                    }} />
                 </Switch>
 
             </main>
