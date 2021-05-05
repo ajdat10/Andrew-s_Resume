@@ -1,12 +1,11 @@
 import React from 'react';
-import Nav from '../components/Nav'
 import Prof from '../photos/ProfessionalPic.jpg'
 import '../styles/App.css'
 import { Link } from 'react-router-dom'
 
 export default () => {
     return (
-        <body>
+        <body class="page1">
             <div class="profile-card">
                 <div class="card-header">
                     <div class="pic">
