@@ -15,11 +15,12 @@ export default () => {
                     <div class="name">Andrew J Cruz</div>
                     <div class="desc">Junior Full-Stack Developer</div>
                     <div class="sm">
-                        <Link to='/ajdat10'>
+                        <Link to='/ajdat10' >
                             <a class="fa fa-github" style={{ fontSize: '24px' }}></a>
                         </Link>
-
-                        <a href='github.com/ajdat10' class="fa fa-linkedin" style={{ fontSize: '24px' }}></a>
+                        <Link to='/andrew-j-cruz' >
+                            <a class="fa fa-linkedin" style={{ fontSize: '24px' }}></a>
+                        </Link>
                     </div>
                     <div class='card-footer'>
                         <div class='numbers'>
