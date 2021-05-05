@@ -12,7 +12,7 @@ export default () => {
                     <div class="pic">
                         <img src={Prof} alt="male image"></img>
                     </div>
-                    <div class="name">Andrew Cruz</div>
+                    <div class="name">Andrew J Cruz</div>
                     <div class="desc">Junior Full-Stack Developer</div>
                     <div class="sm">
                         <Link to='/ajdat10' >
