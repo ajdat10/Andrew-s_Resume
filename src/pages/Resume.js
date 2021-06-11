@@ -26,6 +26,9 @@ export default () => {
             <div class="user-email">
               <i class="fa fa-envelope"> Andrew.j.cruz10@gmail.com</i>
             </div>
+            <div class="user-bio">
+              <p class="bio">I am a software engineer who has a passion in the auto industry. During the journey of becoming a full stack engineer I was exposed to front-end developing where I participated in projects that dynamically changed what a website could look like. With my devotion and creativity, I believe I can be the bridge between the auto industry and how they are presented in a web development aspect.</p>
+            </div>
           </div>
 
         </div>
