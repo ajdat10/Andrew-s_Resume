@@ -87,6 +87,35 @@ export default () => {
               </div>
               <div class='profile-education tab'>
                 <h1>EDUCATION</h1>
+                <ul>
+                  <li>
+                    <h5>Associate of Science (A.S.) - Business Administration	Sep 2012 - Jun 2016</h5>
+                    <h6>LaGuardia Community College, Long Island City, NY</h6>
+                  </li>
+                  <li>
+                    <h5>Bachelor of Arts in Leadership & Human Resources	Unfinished</h5>
+                    <h6>Brooklyn College, Brooklyn, NY</h6>
+                  </li>
+                </ul>
+                <ul>
+                  <h4>CERTIFICATIONS</h4>
+                  <li>
+                    <h5>Software Engineer	Oct 2020 – Jan 2021</h5>
+                    <h6>General Assembly</h6>
+                  </li>
+                  <li>
+                    <h5>Learn Bootstrap Course	March 2021 – March 2021</h5>
+                    <h6>Codecademy.com</h6>
+                  </li>
+                  <li>
+                    <h5>AWS Certified Solutions Architect Associate	March 2021 – Present</h5>
+                    <h6>Udemy.com</h6>
+                  </li>
+                  <li>
+                    <h5>Java Programming Masterclass	March 2012 – Present</h5>
+                    <h6>Udemy.com</h6>
+                  </li>
+                </ul>
               </div>
               <div class='profile-projects tab'>
 
