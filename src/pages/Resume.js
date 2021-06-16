@@ -33,10 +33,39 @@ export default () => {
           <div class="right-side">
             <div class="nav">
               <ul>
-                <li onclick="tabs(0)" class="user-job-experience"></li>
-                <li onclick="tabs(0)" class="user-job-education"></li>
-                <li onclick="tabs(0)" class="user-job-experience"></li>
+                <li onclick="tabs(0)" class="user-skills"></li>
+                <li onclick="tabs(1)" class="user-experience"></li>
+                <li onclick="tabs(2)" class="user-education"></li>
+                <li onclick="tabs(3)" class="user-projects"></li>
               </ul>
+            </div>
+            <div class='profile-body'>
+              <div class='profile-skills tab'>
+                <h1>SKILLS</h1>
+                <p>Intermediate in: JavaScript, Reactjs, MongoDB, SQL, Full Stack Developer, APIs, HTML, CSS, Programming, Front-end, Back End, Redux, GitHub, Git, Node.js, Debug, ES6, NPM, Web Application Developer
+                  Basic in: Python, Ruby, Trello, C++, Chrome Developer Tools, Bootstrap, Heroku
+                </p>
+              </div>
+              <div class='profile-experience tab'>
+                <h1>EXPERIENCE</h1>
+                <ul>
+                  <li>
+                    <h6>Software Engineer</h6>
+                    <h7>General Assembly</h7>
+                    <li>•	Developed and design over three innovative web applications with React written on Visual Studio </li>
+                    <li>•	Operated on MacOS’s terminal where NPM, GIT, Bash, ZSH, and Homebrew was used</li>
+                    <li>•	Worked on different languages, such as JavaScript and Python</li>
+                    <li></li>
+                    <li></li>
+                  </li>
+                </ul>
+              </div>
+              <div class='profile-education tab'>
+
+              </div>
+              <div class='profile-projects tab'>
+
+              </div>
             </div>
           </div>
         </div>
