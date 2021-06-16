@@ -116,6 +116,13 @@ export default () => {
                     <h6>Udemy.com</h6>
                   </li>
                 </ul>
+                <ul>
+                  <h4>HONORS & AWARDS</h4>
+                  <li>
+                    <h5>ePortfolio Scholars Program: Outstanding Web Design	Completed</h5>
+                    <h6>LaGuardia Community College</h6>
+                  </li>
+                </ul>
               </div>
               <div class='profile-projects tab'>
 
