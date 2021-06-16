@@ -30,7 +30,15 @@ export default () => {
               <p class="bio">I am a software engineer who has a passion in the auto industry. During the journey of becoming a full stack engineer I was exposed to front-end developing where I participated in projects that dynamically changed what a website could look like. With my devotion and creativity, I believe I can be the bridge between the auto industry and how they are presented in a web development aspect.</p>
             </div>
           </div>
-
+          <div class="right-side">
+            <div class="nav">
+              <ul>
+                <li onclick="tabs(0)" class="user-job-experience"></li>
+                <li onclick="tabs(0)" class="user-job-education"></li>
+                <li onclick="tabs(0)" class="user-job-experience"></li>
+              </ul>
+            </div>
+          </div>
         </div>
         <Link to="/">
           <button>Home</button>
