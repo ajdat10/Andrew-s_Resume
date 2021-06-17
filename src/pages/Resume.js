@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import '../styles/Resume.css'
+import '../styles/Resume.css'
 import Prof from '../photos/ProfessionalPic.jpg'
 export default () => {
   return (
