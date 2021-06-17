@@ -125,7 +125,21 @@ export default () => {
                 </ul>
               </div>
               <div class='profile-projects tab'>
-
+                <h1>PROJECTS</h1>
+                <ul>
+                  <li>
+                    <h5>AJay's Sport's Feed - Using public API, JSON, HTML5, and CSS</h5>
+                  </li>
+                  <li>
+                    <h5>Tic-Tac-Toe - Reactjs</h5>
+                  </li>
+                  <li>
+                    <h5>AJay's Imports - Full stack project using Reactjs and Mongo database</h5>
+                  </li>
+                  <li>
+                    <h5>Gaiary – Team based full stack project using React and Postgres</h5>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
