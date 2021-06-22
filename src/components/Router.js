@@ -20,14 +20,6 @@ class Router extends Component {
                             <Resume />
                         )}
                     />
-                    <Route path='/ajdat10' component={() => {
-                        window.location.href = 'https://github.com/ajdat10';
-                        return null;
-                    }} />
-                    <Route path='/andrew-j-cruz' component={() => {
-                        window.location.href = 'https://www.linkedin.com/in/andrew-j-cruz/';
-                        return null;
-                    }} />
                 </Switch>
 
             </main>
