@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Switch, withRouter, Route } from 'react-router-dom'
 import Intro from '../pages/Intro'
 import Resume from '../pages/Resume'
-import Redirect from '../pages/Redirect'
 class Router extends Component {
 
     render() {
